@@ -44,8 +44,8 @@ Right now I'm building **TOT**, a platform where people learn DevOps by doing it
 ## Contributions
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Stxanskiy/Stxanskiy/output/github-snake-dark.svg">
-  <img alt="A snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/Stxanskiy/Stxanskiy/output/github-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Stxanskiy/Stxanskiy/output/github-snake-dark.svg?v=2">
+  <img alt="A snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/Stxanskiy/Stxanskiy/output/github-snake.svg?v=2">
 </picture>
 
 ## Contact
