@@ -41,12 +41,6 @@ Right now I'm building **TOT**, a platform where people learn DevOps by doing it
 | **ViBiBAY**<br><sub>private</sub> | Infrastructure of the service: a fleet of Linux servers in five countries provisioned with Ansible, services on Kubernetes deployed by ArgoCD with staging and prod, secrets in Vault, Prometheus alerting. Plus the Go backend, Telegram bot and payments. |
 | **Client projects**<br><sub>private</sub> | Containerised Go services with GitLab CI pipelines and Docker deploys for several commercial products. |
 
-## Contributions
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Stxanskiy/Stxanskiy/output/github-snake-dark.svg?v=2">
-  <img alt="A snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/Stxanskiy/Stxanskiy/output/github-snake.svg?v=2">
-</picture>
 
 ## Contact
 
