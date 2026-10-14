@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 410" width="900" height="410" role="img" aria-label="A TOT lab in action: a student creates a Kubernetes Deployment, waits for the rollout and scales it down; three automatic checks turn green and the lab is complete. Each student works in their own Firecracker micro-VM without network access.">
+  <style>
+    @keyframes l0 { 0%, 2.85% { opacity: 0; } 2.86%, 94.29% { opacity: 1; } 100% { opacity: 0; } }
+    .l0 { animation: l0 14.0s linear infinite; }
+    @keyframes c0 { 0%, 2.86% { transform: translateX(0); } 15.71%, 100% { transform: translateX(552px); } }
+    .c0 { animation: c0 14.0s steps(72) infinite; }
+    @keyframes l1 { 0%, 17.85% { opacity: 0; } 17.86%, 94.29% { opacity: 1; } 100% { opacity: 0; } }
+    .l1 { animation: l1 14.0s linear infinite; }
+    @keyframes l2 { 0%, 23.56% { opacity: 0; } 23.57%, 94.29% { opacity: 1; } 100% { opacity: 0; } }
+    .l2 { animation: l2 14.0s linear infinite; }
+    @keyframes c2 { 0%, 23.57% { transform: translateX(0); } 32.86%, 100% { transform: translateX(357px); } }
+    .c2 { animation: c2 14.0s steps(46) infinite; }
+    @keyframes l3 { 0%, 34.99% { opacity: 0; } 35.00%, 94.29% { opacity: 1; } 100% { opacity: 0; } }
+    .l3 { animation: l3 14.0s linear infinite; }
+    @keyframes l4 { 0%, 44.28% { opacity: 0; } 44.29%, 94.29% { opacity: 1; } 100% { opacity: 0; } }
+    .l4 { animation: l4 14.0s linear infinite; }
+    @keyframes l5 { 0%, 50.70% { opacity: 0; } 50.71%, 94.29% { opacity: 1; } 100% { opacity: 0; } }
+    .l5 { animation: l5 14.0s linear infinite; }
+    @keyframes c5 { 0%, 50.71% { transform: translateX(0); } 60.00%, 100% { transform: translateX(387px); } }
+    .c5 { animation: c5 14.0s steps(50) infinite; }
+    @keyframes l6 { 0%, 62.13% { opacity: 0; } 62.14%, 94.29% { opacity: 1; } 100% { opacity: 0; } }
+    .l6 { animation: l6 14.0s linear infinite; }
+    @keyframes done { 0%, 68.56% { opacity: 0; } 68.57%, 94.29% { opacity: 1; } 100% { opacity: 0; } }
+    .done { animation: done 14.0s linear infinite; }
+    @keyframes k0 { 0%, 19.99% { opacity: 0; } 20.00%, 94.29% { opacity: 1; } 100% { opacity: 0; } }
+    .k0 { animation: k0 14.0s linear infinite; }
+    @keyframes k1 { 0%, 46.42% { opacity: 0; } 46.43%, 94.29% { opacity: 1; } 100% { opacity: 0; } }
+    .k1 { animation: k1 14.0s linear infinite; }
+    @keyframes k2 { 0%, 64.28% { opacity: 0; } 64.29%, 94.29% { opacity: 1; } 100% { opacity: 0; } }
+    .k2 { animation: k2 14.0s linear infinite; }
+    .live { animation: live 1.6s ease-in-out infinite; } @keyframes live { 50% { opacity: .25; } }
+    @media (prefers-reduced-motion: reduce) { .cover { display: none; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs><clipPath id="termbody"><rect x="21" y="55" width="858" height="190"/></clipPath></defs>
+  <rect x=".5" y=".5" width="899" height="409" rx="16" fill="#F6F8FA" stroke="#D0D7DE"/>
+  <rect x="20" y="20" width="860" height="226" rx="12" fill="#FFFFFF"/>
+  <path d="M20,54 H880" stroke="#C9D3DE"/>
+  <text x="36" y="42" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#59636E"><tspan fill="#1F2328" font-weight="700">tot</tspan>  ·  Kubernetes › Lab 2: Deployment</text>
+  <circle cx="768" cy="38" r="4" fill="#1A7F37" class="live"/>
+  <text x="778" y="42" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#59636E">sandbox up</text>
+  <g class="l0"><text x="36" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#0086A8">$</text><text x="52" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#1F2328">kubectl create deployment nginx-deploy --image=nginx:alpine --replicas=2</text></g>
+  <text class="l1" x="36" y="104" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#59636E">deployment.apps/nginx-deploy created</text>
+  <g class="l2"><text x="36" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#0086A8">$</text><text x="52" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#1F2328">kubectl rollout status deployment/nginx-deploy</text></g>
+  <text class="l3" x="36" y="152" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#59636E" opacity=".75">Waiting for deployment &quot;nginx-deploy&quot; rollout to finish: 1 of 2 updated replicas are available...</text>
+  <text class="l4" x="36" y="176" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#1A7F37">deployment &quot;nginx-deploy&quot; successfully rolled out</text>
+  <g class="l5"><text x="36" y="200" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#0086A8">$</text><text x="52" y="200" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#1F2328">kubectl scale deployment nginx-deploy --replicas=1</text></g>
+  <text class="l6" x="36" y="224" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#59636E">deployment.apps/nginx-deploy scaled</text>
+  <g clip-path="url(#termbody)"><rect class="cover c0" x="51" y="66.5" width="552" height="20.5" fill="#FFFFFF"/><rect class="cover c2" x="51" y="114.5" width="357" height="20.5" fill="#FFFFFF"/><rect class="cover c5" x="51" y="186.5" width="387" height="20.5" fill="#FFFFFF"/></g>
+  <rect x="20.5" y="20.5" width="859" height="225" rx="12" fill="none" stroke="#C9D3DE"/>
+  <rect x="20" y="262" width="520" height="130" rx="12" fill="#FFFFFF" stroke="#C9D3DE"/>
+  <text x="36" y="288" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1" fill="#59636E">AUTO-CHECKS</text>
+  <g class="done"><rect x="390" y="274" width="134" height="22" rx="11" fill="#1A7F37" fill-opacity=".15" stroke="#1A7F37"/><text x="457" y="289" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#1A7F37">lab complete 3/3</text></g>
+  <circle cx="46" cy="316" r="7" fill="none" stroke="#D5DDE6" stroke-width="1.5"/>
+  <g class="k0"><circle cx="46" cy="316" r="8" fill="#1A7F37"/><path d="M42,316 l3,3 l5,-6" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="64" y="320" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1F2328">Deployment created with 2 replicas</text>
+  <circle cx="46" cy="342" r="7" fill="none" stroke="#D5DDE6" stroke-width="1.5"/>
+  <g class="k1"><circle cx="46" cy="342" r="8" fill="#1A7F37"/><path d="M42,342 l3,3 l5,-6" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="64" y="346" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1F2328">both replicas are ready</text>
+  <circle cx="46" cy="368" r="7" fill="none" stroke="#D5DDE6" stroke-width="1.5"/>
+  <g class="k2"><circle cx="46" cy="368" r="8" fill="#1A7F37"/><path d="M42,368 l3,3 l5,-6" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="64" y="372" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1F2328">scaled down to 1 replica</text>
+  <rect x="556" y="262" width="324" height="130" rx="12" fill="#FFFFFF" stroke="#C9D3DE"/>
+  <text x="572" y="288" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1" fill="#59636E">HOW A LAB RUNS</text>
+  <text x="572" y="316" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#1F2328"><tspan fill="#0086A8">1 </tspan>Go API starts a sandbox per student</text>
+  <text x="572" y="338" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#1F2328"><tspan fill="#0086A8">2 </tspan>Firecracker micro-VM, no network</text>
+  <text x="572" y="360" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#1F2328"><tspan fill="#0086A8">3 </tspan>k3s, Docker, Linux baked into images</text>
+  <text x="572" y="382" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#1F2328"><tspan fill="#0086A8">4 </tspan>each task: shell probe, exit 0 = solved</text>
+</svg>
