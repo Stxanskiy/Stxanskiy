@@ -10,7 +10,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-BIO = "DevOps engineer · Kubernetes · GitOps · Go. I build and run infrastructure and the services on top of it."
+BIO = "DevOps engineer."
 
 
 def main():

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 250" width="440" height="250" role="img" aria-label="TOT, learn DevOps in a real terminal. learn.prod-factory.ru">
+  <style>
+    @keyframes tl0 { 0%, 4.33% { opacity: 0; } 4.44%, 92.22% { opacity: 1; } 100% { opacity: 0; } } .tl0 { animation: tl0 9.0s linear infinite; }
+    @keyframes tc0 { 0%, 4.44% { transform: translateX(0); } 14.44%, 100% { transform: translateX(111px); } } .tc0 { animation: tc0 9.0s steps(13) infinite; }
+    @keyframes tl1 { 0%, 17.67% { opacity: 0; } 17.78%, 92.22% { opacity: 1; } 100% { opacity: 0; } } .tl1 { animation: tl1 9.0s linear infinite; }
+    @keyframes tl2 { 0%, 28.78% { opacity: 0; } 28.89%, 92.22% { opacity: 1; } 100% { opacity: 0; } } .tl2 { animation: tl2 9.0s linear infinite; }
+    @keyframes tc2 { 0%, 28.89% { transform: translateX(0); } 40.00%, 100% { transform: translateX(127px); } } .tc2 { animation: tc2 9.0s steps(15) infinite; }
+    @keyframes tl3 { 0%, 43.22% { opacity: 0; } 43.33%, 92.22% { opacity: 1; } 100% { opacity: 0; } } .tl3 { animation: tl3 9.0s linear infinite; }
+    @keyframes blink { 50% { opacity: 0; } } .cur { animation: blink 1s steps(1) infinite; }
+    @media (prefers-reduced-motion: reduce) { .cover { display: none; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs><clipPath id="tclip"><rect x="23" y="133" width="394" height="96"/></clipPath></defs>
+  <rect x=".5" y=".5" width="439" height="249" rx="16" fill="#F6F8FA" stroke="#D0D7DE"/>
+  <text x="26" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="800" letter-spacing="-.5" fill="#1F2328">TOT</text>
+  <text x="416" y="44" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#0086A8">learn.prod-factory.ru ↗</text>
+  <text x="27" y="86" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#59636E">learn DevOps in a real terminal</text>
+  <rect x="22" y="106" width="396" height="124" rx="10" fill="#FFFFFF" stroke="#C9D3DE"/>
+  <path d="M22,132 H418" stroke="#C9D3DE"/>
+  <text x="36" y="123" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#59636E">student@tot: ~</text>
+  <g class="tl0"><text x="36" y="156" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#0086A8">$</text><text x="52" y="156" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#1F2328">tot --version</text></g>
+  <text class="tl1" x="36" y="177" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#59636E" xml:space="preserve">tot 1.0.0</text>
+  <g class="tl2"><text x="36" y="198" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#0086A8">$</text><text x="52" y="198" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#1F2328">ls ~/directions</text></g>
+  <text class="tl3" x="36" y="219" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#1A7F37" xml:space="preserve">frontend   backend   infra</text>
+  <g clip-path="url(#tclip)"><rect class="cover tc0" x="51" y="143" width="111" height="19" fill="#FFFFFF"/><rect class="cover tc2" x="51" y="185" width="127" height="19" fill="#FFFFFF"/></g>
+  <rect class="cur" x="245" y="208" width="8" height="14" fill="#0086A8"/>
+</svg>
