@@ -37,7 +37,7 @@ Right now I'm building **TOT**, a platform where people learn DevOps by doing it
 
 | Project | What it is |
 |---|---|
-| **TOT**<br><sub>backend: [GoLearn](https://github.com/Stxanskiy/GoLearn)</sub> | DevOps learning platform with hands-on labs in isolated micro-VMs. Infrastructure, sandbox images, lab checks and the Go API. |
+| **TOT**<br><sub>backend: | DevOps learning platform with hands-on labs in isolated micro-VMs. Infrastructure, sandbox images, lab checks and the Go API. |
 | **ViBiBAY**<br><sub>private</sub> | Infrastructure of the service: a fleet of Linux servers in five countries provisioned with Ansible, services on Kubernetes deployed by ArgoCD with staging and prod, secrets in Vault, Prometheus alerting. Plus the Go backend, Telegram bot and payments. |
 | **Client projects**<br><sub>private</sub> | Containerised Go services with GitLab CI pipelines and Docker deploys for several commercial products. |
 
