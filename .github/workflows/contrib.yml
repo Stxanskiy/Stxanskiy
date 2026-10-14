@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [".github/**"]
+    paths: [".github/**", "tools/trim_contrib.py"]
 
 permissions:
   contents: write
@@ -23,6 +23,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: .github/contrib-settings.json
+
+      - name: Drop the language pie and star/fork counters
+        run: python3 tools/trim_contrib.py profile-3d-contrib/contrib-*.svg
 
       - uses: crazy-max/ghaction-github-pages@v5
         with:
